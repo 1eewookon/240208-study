@@ -65,4 +65,54 @@ public class D_switch {
 
     }
 
+    public void testSwitchVendingMachine() {
+
+        /* 수업목표. switch 문 내의 break 문에 대해 흐름을 이해하고 적용할 수 있다. */
+        /* 필기. switch 문을 이용해서 문자열 값 비교 및 break에 대한 테스트 */
+
+        /* 필기. switch 문을 이용한 간단한 자판기 만들어보기 */
+        System.out.println("==========HiMedia 자판기===========");
+        System.out.println("사이다   콜라   포카리   솔의눈   맥콜");
+        System.out.println("==================================");
+        System.out.print("음료를 선택해주세요 : ");
+
+        Scanner sc = new Scanner(System.in);
+        String selectDrink = sc.nextLine();
+
+        /* 원하는 음료에 맞는 가격을 저장할 변수 */
+        int price = 0;
+
+        switch (selectDrink) {
+
+            case "사이다" :
+                System.out.println("사이다를 선택했습니다");
+                price = 1500;
+                break;
+
+            case "콜라" :
+                System.out.println("콜라를 선택했습니다");
+                price = 2000;
+                break;
+
+            case "포카리" :
+                System.out.println("포카리를 선택했습니다");
+                price = 3000;
+                break;
+
+            case "솔의눈" :
+                System.out.println("솔의눈을 왜 선택했어요?");
+                price = 200;
+                break;
+
+            case "맥콜" :
+                System.out.println("맥콜을 드신다구요?");
+                price = 500;
+                break;
+
+        }
+
+        System.out.println(price + "원을 투입해주세요");
+
+    }
+
 }

@@ -16,8 +16,8 @@ public class Application01 {
 //        c.testSimpleIfElseIfStatement();
 
         D_switch d = new D_switch();
-        d.testSimpleSwitchStatement();
-
+//        d.testSimpleSwitchStatement();
+        d.testSwitchVendingMachine();
     }
 
 }
