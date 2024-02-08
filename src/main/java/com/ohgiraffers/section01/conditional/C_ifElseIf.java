@@ -42,9 +42,12 @@ public class C_ifElseIf {
         } else if(answer == 2) {
 
             System.out.println("욕심이 과하지는 않지만 그래도 넌 거짓말을 해부렸으.. 썩 꺼지거라");
-        } else {
+        } else if(answer == 3) {
 
             System.out.println("오~ 정직한 놈이로구나.. 여기 있는 모든 도끼를 너에게 주마");
+        } else {
+
+            System.out.println("잘못된 수를 입력했습니다.");
         }
 
         System.out.println("그렇게 산신령은 다시 연못 속으로 사라지고 말았다....");
