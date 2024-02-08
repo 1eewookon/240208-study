@@ -13,7 +13,10 @@ public class Application01 {
 //        b.testNestedIfElseStatement();
 
         C_ifElseIf c = new C_ifElseIf();
-        c.testSimpleIfElseIfStatement();
+//        c.testSimpleIfElseIfStatement();
+
+        D_switch d = new D_switch();
+        d.testSimpleSwitchStatement();
 
     }
 
